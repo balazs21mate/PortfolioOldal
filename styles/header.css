@@ -1,0 +1,111 @@
+:root {
+    --cloud-burst: #1f2e46;
+    --blue-marguerite: #667dc2;
+    --jordy-blue: #7aa9f1;
+    --maverick: #d4c5d3;
+}
+
+.jordy_blue {
+    color: var(--jordy-blue);
+}
+
+header {
+    height: 100vh;
+    background-color: var(--cloud-burst);
+}
+
+nav {
+    background-color: var(--cloud-burst);
+    border-bottom: 1px solid var(--jordy-blue);
+    color: wheat;
+}
+
+.nav-link {
+    color: white;
+}
+
+#portfolio_home {
+    display: flex;
+    height: 100vh;
+}
+
+#portfolio_image {
+    background-image: url("../Pictures/Portfolio.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: var(--cloud-burst);
+    width: 50%;
+}
+
+#portfolio_text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: var(--maverick);
+    width: 50%;
+}
+
+#quote {
+    text-align: center;
+    margin-top: 5rem;
+}
+
+#quote_author {
+    position: relative;
+    text-align: right;
+    right: -1rem;
+    animation-name: author;
+    animation-delay: 0.5s;
+    animation-duration: 3s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: both;
+}
+
+@keyframes author {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+
+    #portfolio_home {
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    #portfolio_text {
+        text-align: center;
+        margin-top: 5rem;
+        width: 100%;
+    }
+
+    #quote {
+        margin-top: 2rem;
+    }
+
+    #portfolio_image {
+        position: relative;
+        height: 100%;
+        width: 100%;
+        top: 2rem;
+    }
+}
+
+@media screen and (max-height: 500px) {
+
+    #portfolio_home {
+        justify-content: start;
+    }
+
+    #portfolio_image {
+        display: none;
+    }
+}

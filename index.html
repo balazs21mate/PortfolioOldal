@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Máté Balázs</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="./styles/header.css">
+    <link rel="stylesheet" href="./styles/main.css">
+    <link rel="stylesheet" href="./styles/footer.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg fixed-top" data-bs-theme="dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"><span class="jordy_blue">Máté</span> Balázs</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#">Kezdőlap</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#skillek">Skillek</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#munkaim">Munkáim</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#elerhetoseg">Elérhetőség</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <article id="portfolio_home">
+            <section id="portfolio_image">
+            </section>
+            <section id="portfolio_text">
+                <h1><span class="jordy_blue">Máté</span> Balázs</h1>
+                <h2>Junior Frontend <span class="jordy_blue">fejlesztő</span></h2>
+
+                <div id="quote">
+                    <h5>Everything is possible.</h5>
+                    <h5>The impossible just takes longer.</h5>
+                    <h6 class="jordy_blue" id="quote_author">Dan Brown</h6>
+                </div>
+            </section>
+        </article>
+    </header>
+
+    <main class="container-fluid">
+
+        <article id="skillek" class="row">
+            <h1 class="cim megjelenes">Skillek</h1>
+            <section class="card container-fluid megjelenes" style="width: 18rem;">
+                <img src="./Pictures/logos/html.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">HTML</h5>
+                    <p class="card-text">HTML (HyperText Markup Language) a weboldalak alapját képezi, amely
+                        strukturálja a tartalmat, és meghatározza az elemek, mint például címek, bekezdések, képek és
+                        linkek elrendezését.</p>
+                    <a href="https://hu.wikipedia.org/wiki/HTML" class="btn btn-primary" target="_blank">Tudj meg
+                        többet</a>
+                </div>
+            </section>
+
+            <section class="card container-fluid megjelenes" style="width: 18rem;">
+                <img src="./Pictures/logos/css.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">CSS</h5>
+                    <p class="card-text">CSS (Cascading Style Sheets) a weboldalak megjelenésének kialakítására szolgál,
+                        lehetővé téve a színek, betűtípusok, margók és egyéb stílusok meghatározását, hogy vizuálisan
+                        vonzóvá tegyék a tartalmat.</p>
+                    <a href="https://hu.wikipedia.org/wiki/CSS" class="btn btn-primary" target="_blank">Tudj meg
+                        többet</a>
+                </div>
+            </section>
+
+            <section class="card container-fluid megjelenes" style="width: 18rem;">
+                <img src="./Pictures/logos/bootstrap.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Bootstrap</h5>
+                    <p class="card-text">A Bootstrap egy nyílt forráskódú CSS keretrendszer, amely gyors és reszponzív
+                        webfejlesztést tesz lehetővé, előre elkészített stílusokkal, komponensekkel és JavaScript
+                        pluginekkel.</p>
+                    <a href="https://getbootstrap.com/" class="btn btn-primary" target="_blank">Tudj meg
+                        többet</a>
+                </div>
+            </section>
+
+            <section class="card container-fluid megjelenes" style="width: 18rem;">
+                <img src="./Pictures/logos/javascript.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">JavaScript</h5>
+                    <p class="card-text">A JavaScript egy dinamikus programozási nyelv, amely interaktív funkciók
+                        hozzáadását teszi lehetővé a weboldalakhoz, mint például animációk, űrlapellenőrzés és dinamikus
+                        tartalom frissítése.</p>
+                    <a href="https://www.javascript.com/" class="btn btn-primary" target="_blank">Tudj meg
+                        többet</a>
+                </div>
+            </section>
+
+            <section class="card container-fluid megjelenes" style="width: 18rem;">
+                <img src="./Pictures/logos/typescript.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">TypeScript</h5>
+                    <p class="card-text">A TypeScript egy nyílt forráskódú programozási nyelv, amely a JavaScript
+                        szuperszettje, és amely típusbiztonságot ad a kódhoz, segítve a fejlesztőket a hibák korai
+                        észlelésében és az alkalmazások karbantarthatóságának javításában.</p>
+                    <a href="https://www.typescriptlang.org/" class="btn btn-primary" target="_blank">Tudj meg
+                        többet</a>
+                </div>
+            </section>
+
+            <section class="card container-fluid megjelenes" style="width: 18rem;">
+                <img src="./Pictures/logos/angular.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Angular</h5>
+                    <p class="card-text">Az Angular egy TypeScript alapú keretrendszer, amelyet a Google fejlesztett, és
+                        amely lehetővé teszi összetett, dinamikus és reszponzív egyoldalas alkalmazások (SPA)
+                        létrehozását.</p>
+                    <a href="https://angular.dev/" class="btn btn-primary" target="_blank">Tudj meg
+                        többet</a>
+                </div>
+            </section>
+
+            <section class="card container-fluid megjelenes" style="width: 18rem;">
+                <img src="./Pictures/logos/nodejs.svg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Node JS</h5>
+                    <p class="card-text">A Node.js egy nyílt forráskódú, szerveroldali futtatási környezet, amely
+                        lehetővé teszi JavaScript használatát szerveroldali programozáshoz, támogatva a skálázható és
+                        nagy teljesítményű alkalmazások fejlesztését.</p>
+                    <a href="https://nodejs.org/en" class="btn btn-primary" target="_blank">Tudj meg
+                        többet</a>
+                </div>
+            </section>
+
+            <section class="card container-fluid megjelenes" style="width: 18rem;">
+                <img src="./Pictures/logos/mongodb.svg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">MongoDB</h5>
+                    <p class="card-text">A MongoDB egy dokumentum-orientált NoSQL adatbázis, amely nagy mennyiségű adat
+                        tárolására és kezelésére alkalmas, rugalmas, skálázható és könnyen használható JSON-szerű
+                        dokumentumokkal dolgozva.</p>
+                    <a href="https://www.mongodb.com/" class="btn btn-primary" target="_blank">Tudj meg
+                        többet</a>
+                </div>
+            </section>
+        </article>
+
+        <article id="munkaim" class="row">
+            <h1 class="cim megjelenes">Munkáim</h1>
+            <section class="card container-fluid megjelenes" style="width: 18rem;">
+                <img src="./Pictures/Projects/Admin.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Egyszerű admin felület</h5>
+                    <p class="card-text">Ez egy egyszerű adminisztrációs felület. Az oldal célja, hogy
+                        bemutasson egy könnyen kezelhető adminisztrációs panelt a felhasználók számára.</p>
+                </div>
+                <div class="card-body">
+                    <a href="https://balazs21mate.github.io/AdminFelulet/" class="card-link" target="_blank">Oldal
+                        megtekintése</a>
+                    <a href="https://github.com/balazs21mate/AdminFelulet" class="card-link" target="_blank">Github
+                        link</a>
+                </div>
+            </section>
+
+            <section class="card container-fluid megjelenes" style="width: 18rem;">
+                <img src="./Pictures/Projects/Strabag_fizetes_kalkulator.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Strabag fizetés kalkulátor</h5>
+                    <p class="card-text">Ezt a mini webalkalmazást abból a célból hoztam létre, hogy előre tervezhessek
+                        a fizetésemmel.</p>
+                </div>
+                <div class="card-body">
+                    <a href="https://balazs21mate.github.io/Strabag/" class="card-link" target="_blank">Oldal
+                        megtekintése</a>
+                    <a href="https://github.com/balazs21mate/Strabag" class="card-link" target="_blank">Github
+                        link</a>
+                </div>
+            </section>
+
+            <section class="card container-fluid megjelenes" style="width: 18rem;">
+                <img src="./Pictures/Projects/Gazdalkodj_okosan.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Egyszerű bank alkalmazás Gazdálkodj okosan társashoz</h5>
+                    <p class="card-text">Ez a webalkalmazás abból a célból jött létre, hogy kicsit interkatívvá tegyem a
+                        Gazdálkodj okosan társasjátékot.</p>
+                </div>
+                <div class="card-body">
+                    <a href="https://balazs21mate.github.io/gazdalkodj-okosan-bank/" class="card-link"
+                        target="_blank">Oldal
+                        megtekintése</a>
+                    <a href="https://github.com/balazs21mate/gazdalkodj-okosan-bank" class="card-link"
+                        target="_blank">Github
+                        link</a>
+                </div>
+            </section>
+
+            <section class="card container-fluid megjelenes" style="width: 18rem;">
+                <img src="./Pictures/Projects/galeria.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Egyszerű galéria</h5>
+                    <p class="card-text">Ez egy egyszerű galéria html és css használatával</p>
+                </div>
+                <div class="card-body">
+                    <a href="https://balazs21mate.github.io/EgyszeruGalleria/" class="card-link" target="_blank">Oldal
+                        megtekintése</a>
+                    <a href="https://github.com/balazs21mate/EgyszeruGalleria" class="card-link" target="_blank">Github
+                        link</a>
+                </div>
+            </section>
+        </article>
+
+        <article id="elerhetoseg" class="row">
+            <h1 class="cim megjelenes">Vedd fel velem a kapcsolatot!</h1>
+            <form action="">
+                <section class="form-floating">
+                    <input type="text" id="nev" class="form-control" placeholder="Név" required>
+                    <label for="nev">Név:</label>
+                </section>
+
+                <section class="form-floating">
+                    <input type="email" id="email" class="form-control" placeholder="Email cím" required>
+                    <label for="email">Email cím:</label>
+                </section>
+
+                <section class="form-floating">
+                    <textarea id="uzenet" class="form-control" placeholder="Üzenet" rows="3" required></textarea>
+                    <label for="uzenet">Üzenet:</label>
+                </section>
+
+                <button type="submit" class="btn btn-success">Küldés</button>
+            </form>
+        </article>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2024 Portfolió oldal. Minden jog fenntartva.</p>
+            <p>
+                Készítette: <span id="nev">Máté Balázs</span>
+            </p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const observer = new IntersectionObserver(entries => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('reveal');
+                    }
+                });
+            });
+
+            document.querySelectorAll('.megjelenes').forEach(el => {
+                observer.observe(el);
+            });
+        });
+    </script>
+</body>
+
+</html>
